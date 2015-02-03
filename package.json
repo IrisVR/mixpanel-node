@@ -1,7 +1,12 @@
 {
   "name": "mixpanel",
   "description": "A simple API for mixpanel",
-  "keywords": ["mixpanel", "analytics", "api", "stats"],
+  "keywords": [
+    "mixpanel",
+    "analytics",
+    "api",
+    "stats"
+  ],
   "version": "0.0.20",
   "homepage": "https://github.com/carlsverre/mixpanel-node",
   "author": "Carl Sverre",
@@ -10,8 +15,8 @@
     "lib": "lib"
   },
   "repository": {
-      "type": "git",
-      "url": "http://github.com/carlsverre/mixpanel-node.git"
+    "type": "git",
+    "url": "http://github.com/carlsverre/mixpanel-node.git"
   },
   "engines": {
     "node": ">=0.6.0"
@@ -22,5 +27,10 @@
   "devDependencies": {
     "nodeunit": "0.7",
     "sinon": "1.4"
+  },
+  "dependencies": {
+    "is-online": "^3.1.0",
+    "lowdb": "^0.6.1",
+    "uuid": "^2.0.1"
   }
 }
